@@ -1,0 +1,78 @@
+/* reusable classes */
+.circle {
+    border-radius: 100%;
+}
+.white {
+    background-color: white;
+}
+
+/* index  */
+body {
+    background-color: #f9f9f9;
+}
+
+/* menu styles */
+.menu {
+    padding: 20px 20px 0px 20px;
+}
+
+.sub-menu {
+    margin: 0 10%  0 10% ;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search form {
+    display: flex;
+    align-items: center;
+}
+
+.search form input {
+    height: 20px;
+}
+.search form img {
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.icons a + a {
+    margin-left: 10px;
+}
+
+img.little{
+    width: 25px;
+    height: 25px;
+}
+
+.logo img {
+    width: 120px;
+    height: 30px;
+}
+
+
+/* stories and cards styles */
+.main {
+    max-width: 600px;
+
+}
+.stories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stories img {
+    width: 100px;
+    height:100px;
+}
+.stories a + a {
+    margin-left: 15px;
+}
+
+.cards {
+    margin-top: 25px;
+}
