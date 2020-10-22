@@ -54,12 +54,20 @@ img.little{
 }
 
 
-/* stories and cards styles */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .main {
-    max-width: 600px;
+    max-width: 40rem;
 
 }
-.stories {
+/* stories  */
+
+.stories {    
+    visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,6 +81,65 @@ img.little{
     margin-left: 15px;
 }
 
+
+/* cards */
 .cards {
     margin-top: 25px;
+}
+.card {
+    margin-bottom: 50px;
+}
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-top .card-top1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-top .card-top1 img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-top a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.card .img-post img {
+    height: 100%;
+    width: 40rem;
+}
+
+
+.card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-bottom .post-icons {
+    margin-left: 10px;
+}
+
+.card-bottom img {
+    margin-right: 10px;
+}
+
+.comments .card-comment {
+    display: flex;
+    align-items: center;
+}
+
+.card-comment p {
+    margin-left: 5px;
+}
+.card-comment a {
+    margin-left: 5px;
+    text-decoration: none;
 }
