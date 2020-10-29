@@ -9,11 +9,12 @@
 /* index  */
 body {
     background-color: #f9f9f9;
+    margin: 0;
 }
 
 /* menu styles */
 .menu {
-    padding: 20px 20px 0px 20px;
+    padding: 15px;
 }
 
 .sub-menu {
@@ -56,17 +57,16 @@ img.little{
 
 .content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
 .main {
     max-width: 40rem;
-
 }
 /* stories  */
 
-.stories {    
+/* .stories {    
     visibility: hidden;
     display: flex;
     align-items: center;
@@ -79,7 +79,7 @@ img.little{
 }
 .stories a + a {
     margin-left: 15px;
-}
+} */
 
 
 /* cards */
@@ -142,4 +142,96 @@ img.little{
 .card-comment a {
     margin-left: 5px;
     text-decoration: none;
+}
+
+
+.suggestion {
+    width: 20rem;
+    margin-left: 2rem;
+    margin-top: 20px;
+    margin-right: 2rem;
+}
+
+.suggestion a {
+    text-decoration: none;
+    color: violet;
+}
+
+.my_profile {
+    display: flex;
+    align-items: center;
+}
+
+.my_profile img {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px ;
+}
+
+.header_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.other_profiles {
+    display: block;
+}
+
+.other_profiles .profiles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+    .suggestion {
+        display: none;
+    }
+}
+
+@media (max-width: 730px) {
+    .search {
+        display: none;
+    }
+}
+
+@media (max-width: 680px) {
+    .main {
+        max-width: 30rem;
+    }
+    .card .img-post img {
+        height: 100%;
+        width: 30rem;
+    }
+}
+
+@media (max-width: 680px) {
+    .sub-menu {
+        display: flex;
+        justify-content: center;
+    }
+    .sub-menu .logo{
+        display: none;
+    }
+}
+
+@media (max-width: 490px) {
+    .main {
+        max-width: 25rem;
+    }
+    .card .img-post img {
+        height: 100%;
+        width: 25rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .main {
+        max-width: 20rem;
+    }
+    .card .img-post img {
+        height: 100%;
+        width: 20rem;
+    }
 }
